@@ -1,0 +1,163 @@
+
+
+@media all and (max-width: 480px){
+    .course-container .course .regi-details a{
+        padding: 8px 15px !important;
+        font-size: 16px;
+    }
+
+
+    /* Contact Page */
+    .contact .address{
+        text-align: center;
+    }
+
+    /* Success Section */
+    .success .stories{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    }
+
+    /* Testimonials Page */
+    
+    .reviews .review-gallery{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+      }
+      
+      
+    
+    /*Online join procedure video*/
+    
+    .join-video-close{
+        top: 35% !important;
+        right: 2% !important;
+        width: 35px;
+    }
+}
+
+
+
+@media all and (max-width: 768px){
+    
+    /* Popups */
+    .section-title+p {
+        width: 100%;
+        text-align: left !important;
+    }
+    
+    .popup .popup-content{
+        width: 90%;
+    }
+    .popup .popup-content button{
+        top: -10px;
+        right: -10px;
+        font-size: 25px;
+        padding: 0 10px;
+    }
+
+
+    nav .logo{
+        width: 100px;
+    }
+    
+    
+    
+    /*Online join procedure video*/
+    
+    .join-video-close{
+        top: 30%;
+        right: 3%;
+    }
+
+    /* About section */
+    .about-top p{
+        width: 100%;
+    }
+
+
+    /* Others pages */
+    /* Freelancing */
+    .freelancing .difference{
+        display: none;
+    }
+
+    /* Course Details pages */
+    
+    .course-common .price-regi h3{
+        font-size: 20px;
+    }
+    .course-common .price-regi a{
+        font-size: 18px;
+        padding: 10px 18px;
+    }
+
+
+    /*Blogs*/
+    
+    article img{
+        width: 100%;
+    }
+}
+
+
+
+@media all and (max-width: 992px){
+    nav .nav-icon{
+        display: block;
+    }
+    nav ul{
+        width: 250px;
+        padding-bottom: 20px;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background: url(../media/img/bg-header.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 25px;
+        transform: translateX(110%);
+        transition: all .4s ease-in-out;
+    }
+    nav .menu-show{
+        transform: translateX(7%);
+    }
+    nav ul li{
+        padding: 5px 0;
+        text-align: center;
+    }
+    /*Online join procedure video*/
+    
+    .join-video video{
+        width: 90%;
+    }
+    
+    .join-video-close{
+        top: 32%;
+        right: 3%;
+    }
+    
+    
+    /* Blogs */
+    .aside-materials, .sidebar-socials{
+        display: none;
+    }
+    article .dm-main-article{
+        width: 100%;
+    }
+    
+    article .dm-points {
+        position: sticky;
+        top: 65px;
+        left: 0;
+        padding: 20px 0;
+        background: #FAF0F0;
+    }
+    .home-left{
+        text-align: center;
+    }
+}
+
+
+
+
